@@ -27,7 +27,7 @@ Este es el ejercicio realizado de cara a la evaluación final de Adalab, corresp
 En este proyecto teniamos que renderizar una web con un listado de personajes de Harry Potter a través de esta API: [HP API](https://hp-api.herokuapp.com/).
 También teniamos que aplicar varios filtros sobre dicho listado (por casa, por nombre, por ancestros...) e implementar que al hacer clic sobre un personaje, su información apareciese a pantalla completa.
 
-[Enlace al proyecto](http://beta.adalab.es/modulo-3-evaluacion-final-Laura-Carbajales/#/)
+[Enlace al proyecto](https://laura-carbajales.github.io/harry_potter_characters_search_engine/)
 
 ## 🎬 Para empezar
 
