@@ -1,0 +1,36 @@
+.card {
+  width: 200px;
+  min-height: 350px;
+  background-color: rgb(198, 167, 89);
+  margin: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 5px 5px rgb(198, 167, 89);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+  }
+  &__article {
+    &--img {
+      width: 200px;
+      height: 300px;
+      object-fit: cover;
+    }
+    &--title {
+      color: white;
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 10px;
+      margin-top: 5px;
+      max-width: 190px;
+    }
+    &--text {
+      color: white;
+      font-weight: lighter;
+      margin-left: 10px;
+      margin-bottom: 5px;
+    }
+  }
+}

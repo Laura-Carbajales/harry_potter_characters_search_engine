@@ -1,0 +1,58 @@
+.header {
+  width: 100vw;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(0, 0, 0)),
+    url('../../images/hero.jpeg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  &__img {
+    width: 250px;
+    margin: 20px 0 20px 0;
+    @media all and (min-width: 768px) {
+      width: 600px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 700px;
+    }
+  }
+  &__text {
+    color: white;
+    font-family: 'Love Light', cursive;
+    font-size: 30px;
+    animation-name: intro;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    @media all and (min-width: 768px) {
+      font-size: 50px;
+    }
+  }
+  &__subtext {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Love Light', cursive;
+    max-width: 500px;
+    margin-bottom: 20px;
+    animation-name: intro;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    @media all and (min-width: 768px) {
+      font-size: 40px;
+      margin-bottom: 40px;
+    }
+  }
+}
+@keyframes intro {
+  from {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

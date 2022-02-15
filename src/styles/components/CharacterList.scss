@@ -1,0 +1,22 @@
+.container {
+  padding: 50px 0 50px 0;
+  @media all and (min-width: 768px) {
+    max-width: 900px;
+  }
+  &__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__text {
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgb(198, 167, 89);
+    border-radius: 5px;
+    padding: 20px;
+  }
+}

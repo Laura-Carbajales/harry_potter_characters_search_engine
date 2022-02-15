@@ -1,0 +1,51 @@
+.containerAncestry {
+  margin-top: 15px;
+  width: 350px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 620px;
+  }
+
+  & .labelAncestry {
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+    }
+    &__list {
+      display: flex;
+      flex-direction: column;
+      @media all and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+      }
+      &--item {
+        @media all and (min-width: 768px) {
+          margin-left: 10px;
+        }
+        & .labelInput {
+          color: white;
+          margin-right: 20px;
+          text-transform: capitalize;
+          font-size: 20px;
+          font-weight: lighter;
+          color: white;
+          @media all and (min-width: 768px) {
+            margin-right: 0px;
+          }
+          & .input {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

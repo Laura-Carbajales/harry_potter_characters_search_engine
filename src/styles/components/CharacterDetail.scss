@@ -1,0 +1,100 @@
+.containerDetail {
+}
+.detail {
+  width: 350px;
+  border: 2px solid rgb(198, 167, 89);
+  border-radius: 5px;
+  background-image: url('../../images/hogwarts.png');
+  padding: 20px;
+  @media all and (min-width: 768px) {
+    width: 600px;
+    height: 350px;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  &__link {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 45px;
+    position: absolute;
+    transform: translate(300px, -45px);
+    border: 2px solid rgb(198, 167, 89);
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    color: rgb(198, 167, 89);
+    &:hover {
+      border: 2px solid white;
+      color: white;
+      background-color: rgb(198, 167, 89);
+    }
+    @media all and (min-width: 768px) {
+      transform: translate(570px, -25px);
+    }
+  }
+  &__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &--img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      object-fit: cover;
+      object-position: center;
+      margin-bottom: 20px;
+      @media all and (min-width: 768px) {
+        height: 350px;
+        border-radius: 0px;
+      }
+    }
+    &--shield {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      position: absolute;
+      transform: translate(70px, 140px);
+      border: 2px solid rgb(198, 167, 89);
+      border-radius: 50%;
+      padding: 5px;
+      background-color: white;
+      @media all and (min-width: 768px) {
+        width: 100px;
+        height: 100px;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        background-color: rgba(245, 245, 245, 0);
+        transform: translate(340px, -110px);
+      }
+    }
+
+    &--container {
+      width: 50%;
+      margin-left: 10px;
+      text-align: center;
+      @media all and (min-width: 768px) {
+        flex-grow: 2;
+        margin-top: 30px;
+        margin-left: 30px;
+        text-align: start;
+      }
+    }
+    &--title {
+      color: white;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    &--text {
+      color: white;
+      text-align: start;
+    }
+  }
+  @media all and (min-width: 1200px) {
+  }
+}

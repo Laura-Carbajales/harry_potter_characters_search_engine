@@ -1,0 +1,30 @@
+.footer {
+  border-top: 1px solid rgba(128, 128, 128, 0.31);
+  height: 80px;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__copy {
+    font-size: 14px;
+    color: rgb(198, 167, 89);
+  }
+  &__rrss {
+    &--title {
+      font-size: 14px;
+      font-weight: normal;
+      color: rgb(198, 167, 89);
+    }
+    &--link {
+      color: rgb(198, 167, 89);
+      & .icon {
+        font-size: 20px;
+        margin-right: 5px;
+        margin-top: 5px;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.labelHouse {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 5px;
+  @media all and (min-width: 768px) {
+    margin-right: 20px;
+  }
+}
+.inputHouse {
+  height: 40px;
+  width: 350px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.515);
+  font-weight: lighter;
+  padding-left: 10px;
+  border: 2px solid rgb(198, 167, 89);
+  border-radius: 5px;
+  background-color: gray;
+  @media all and (min-width: 768px) {
+    width: 410px;
+  }
+}
