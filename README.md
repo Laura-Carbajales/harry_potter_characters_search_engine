@@ -1,8 +1,6 @@
-HP characters search engine
+#HP characters search engine
 
 ### ✨ Harry Potter Character Database
-
-Este es el ejercicio realizado de cara a la evaluación final de Adalab, correspondiente al Módulo 3: React.
 
 <details>
   <summary>Table of Contents</summary>
