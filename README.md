@@ -1,4 +1,4 @@
-#HP characters search engine
+# HP characters search engine
 
 ### ✨ Harry Potter Character Database
 
