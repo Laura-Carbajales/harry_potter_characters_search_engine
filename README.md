@@ -1,52 +1,66 @@
-# Módulo 3
+HP characters search engine
 
-### ✨ Ejercicio de evaluación final
+### ✨ Harry Potter Character Database
 
 Este es el ejercicio realizado de cara a la evaluación final de Adalab, correspondiente al Módulo 3: React.
 
 <details>
-  <summary>Contenido</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#descripción">Descripción</a>
+      <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#para-empezar">Para emezar</a>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
     </li>
     <li>
-      <a href="#tecnologías-o-lenguajes-utilizados">Tecnologías o lenguajes utilizados</a>
+      <a href="#tech-stack">Tech Stack</a>
     </li>
-    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 ---
 
-## 📄 Descripción
+## 📄 About The Project
 
-En este proyecto teniamos que renderizar una web con un listado de personajes de Harry Potter a través de esta API: [HP API](https://hp-api.herokuapp.com/).
-También teniamos que aplicar varios filtros sobre dicho listado (por casa, por nombre, por ancestros...) e implementar que al hacer clic sobre un personaje, su información apareciese a pantalla completa.
+This project features an Harry Potter character database thanks to the [HP API](https://hp-api.herokuapp.com/). This page also allows to filter characters by hogwarts house, species and ancestry.
 
-[Enlace al proyecto](https://laura-carbajales.github.io/harry_potter_characters_search_engine/)
+Every character has their individual detail page with more info!
 
-## 🎬 Para empezar
+[View the project](https://laura-carbajales.github.io/harry_potter_characters_search_engine/)
 
-¿Qué necesitas tener instalado para ejecutar este proyecto?
+## 🎬 Getting Started
 
-- Node
+To start this project you need to follow this steps:
+
+### Prerequisites
+
 - npm
-- Gulp
 
-Una vez todo instalado, es importante **arrancar el proyecto** y para ello tienes que ejecutar los siguientes comandos en la terminal:
+  ```sh
+  npm install npm@latest -g
+  ```
 
-1. ```bash
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Laura-Carbajales/harry_potter_characters_search_engine.git
+   ```
+2. Install NPM packages
+   ```sh
    npm install
    ```
-2. ```bash
+3. Start the project and enjoy!
+   ```sh
    npm start
    ```
-
-## 🖥️ Tecnologías o lenguajes utilizados
+## 🖥️  Tech Stack
 
 - React
 - HTML5
@@ -54,12 +68,6 @@ Una vez todo instalado, es importante **arrancar el proyecto** y para ello tiene
 - Javascript
 - [HP API](https://hp-api.herokuapp.com/)
 
-## 👩‍💻 ¡Ya tenemos todo!, ¡vamos al lío!
-
-Mi trabajo en este proyecto se centra en la carpeta `src/`, donde se encuentran las carpetas components, services, styles...
-
-Una vez arrancado el proyecto como hemos comentado, a partir de estos ficheros `src/` se generarán automáticamente `public/` y `docs/`.
-
-## 📧 Contacto
+## 📧 Contact
 
 [![Autor](https://img.shields.io/badge/github-Laura%20Carbajales-pink?style=for-the-badge&logo=github)](https://github.com/Laura-Carbajales)
