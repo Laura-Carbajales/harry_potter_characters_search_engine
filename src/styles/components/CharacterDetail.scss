@@ -4,7 +4,7 @@
   width: 350px;
   border: 2px solid rgb(198, 167, 89);
   border-radius: 5px;
-  background-image: url('../../images/hogwarts.png');
+  background-image: url('../../images/paper.jpeg');
   padding: 20px;
   @media all and (min-width: 768px) {
     width: 600px;
@@ -75,8 +75,7 @@
     }
 
     &--container {
-      width: 50%;
-      margin-left: 10px;
+      width: 80%;
       text-align: center;
       @media all and (min-width: 768px) {
         flex-grow: 2;
@@ -86,12 +85,16 @@
       }
     }
     &--title {
-      color: white;
-      font-size: 20px;
+      color: black;
+      font-family: 'Love Light', cursive;
+      font-size: 50px;
       margin-bottom: 10px;
+      @media all and (min-width: 768px) {
+        margin-top: 50px;
+      }
     }
     &--text {
-      color: white;
+      color: black;
       text-align: start;
     }
   }

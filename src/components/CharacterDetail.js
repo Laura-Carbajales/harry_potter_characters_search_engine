@@ -1,6 +1,6 @@
 import '../styles/components/CharacterDetail.scss';
 import { Link } from 'react-router-dom';
-import DefaultImage from '../images/default_img.jpeg';
+import DefaultImage from '../images/default_img.jpg';
 import Gryffindor from '../images/gryffindor.png';
 import Hufflepuff from '../images/hufflepuff.png';
 import Ravenclaw from '../images/ravenclaw.png';

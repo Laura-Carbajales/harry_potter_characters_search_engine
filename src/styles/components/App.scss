@@ -9,7 +9,10 @@
     align-items: center;
     width: 100vw;
     min-height: calc(100vh - 372px);
-    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8)),
+      url('../../images/pared.gif');
+    background-size: 100%;
+    background-attachment: fixed;
     @media all and (min-width: 768px) {
       padding: 60px;
       min-height: calc(100vh - 579px);
